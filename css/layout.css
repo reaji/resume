@@ -48,11 +48,14 @@
     font-family: "San Francisco"   
 }
 
+body{
+	overflow-x:hidden; 
+}
 
 #outbox{
 	position: relative;
 	max-width: 940px;
-	height: 1000px;
+	/*height: 1000px;*/
 	margin: 0 auto;
 	/*border: 1px solid black;*/
 	padding-top: 40px;
@@ -110,7 +113,7 @@ p{
 	font-weight: 500;
 }
 
-.education{
+.section{
 	margin-top:50px;
 }
 
@@ -155,6 +158,10 @@ p{
 	background: yellow;
 	width: 135px;
 	height: 210px;
+}
+
+.description{
+	margin-bottom: 20px;
 }
 
 @media screen and (max-width: 870px) {
