@@ -1,0 +1,177 @@
+/**
+ * http://applemusic.tumblr.com/
+ */
+
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */ 
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+* {
+    font-family: "San Francisco"   
+}
+
+
+#outbox{
+	position: relative;
+	max-width: 940px;
+	height: 1000px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	padding-top: 40px;
+/*	padding-left: 65px;
+	padding-right: 65px;*/
+}
+
+
+h1{
+	font-size: 26pt;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 6px;
+	margin: 0 auto;
+}
+
+h2{
+	font-size: 18pt;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 0 auto;
+}
+
+h4{
+	font-size: 12pt;
+	font-weight: 200;
+	text-align: center;
+	letter-spacing: 0.5px;
+	margin: 0 auto;
+}
+
+h6{
+	font-size: 9pt;
+	font-weight: 200;
+	text-align: center;
+	letter-spacing: 0.5px;
+	margin: 0 auto;
+}
+
+p{
+	font-size: 10pt;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+.contactinfo{
+	margin-top: 0.5px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.subtitle{
+	margin-top:4px;
+	font-weight: 500;
+}
+
+.education{
+	margin-top:50px;
+}
+
+.number{
+	font-size: 9pt;
+}
+
+.profile{
+	margin-top:10px;
+	max-width: 600px;
+}
+
+.contentpart{
+	position: absolute;
+	left:0;
+	right: 0;
+	max-width: 854px;
+	margin: 0 auto;
+}
+
+.content{
+	position: relative;
+	display: inline-block;
+	width: 425px;
+	height: 210px;
+	margin: 0 auto;
+}
+
+.content .main{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: blue;
+	width: 290px;
+	height: 210px;
+}
+
+.content .year{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: yellow;
+	width: 135px;
+	height: 210px;
+}
+
+@media screen and (max-width: 870px) {
+.contentpart{
+	position: absolute;
+	left:0;
+	right: 0;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+}
+
+
+
+
+
+
+
+
