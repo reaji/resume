@@ -141,6 +141,7 @@ p{
 	right: 0;
 	max-width: 854px;
 	margin: 0 auto;
+	overflow-x:hidden; 
 	
 }
 
@@ -150,6 +151,7 @@ p{
 	right: 0;
 	max-width: 854px;
 	margin: 0 auto;
+	overflow-x:hidden; 
 
 }
 
@@ -159,6 +161,7 @@ p{
 	width: 425px;
 	height: 145px;
 	margin: 20px auto 0 auto;
+	overflow-x:hidden; 
 }
 
 .contentpart2 .content{
