@@ -48,9 +48,11 @@
     font-family: "San Francisco"   
 }
 
-body{
+html, body{
 	overflow-x:hidden; 
 	margin: 0;
+	overflow-x: hidden;
+    overflow-y: scroll !important;
 }
 
 #outbox{
@@ -226,6 +228,7 @@ p{
 #outbox{
 	padding-left: 20px;
 	padding-right: 20px;
+	height: 
 }
 
 }
