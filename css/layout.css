@@ -50,15 +50,17 @@
 
 body{
 	overflow-x:hidden; 
+	margin: 0;
 }
 
 #outbox{
 	position: relative;
 	max-width: 940px;
-	/*height: 1000px;*/
+	height: 1050px;
 	margin: 0 auto;
 	/*border: 1px solid black;*/
-	padding-top: 40px;
+	padding-top: 25px;
+	overflow-x:hidden; 
 /*	padding-left: 65px;
 	padding-right: 65px;*/
 }
@@ -80,6 +82,13 @@ h2{
 	margin: 0 auto;
 }
 
+h3{
+	font-size: 14pt;
+	font-weight: 500;
+	margin: 0 auto;
+	letter-spacing: 0.3px;
+}
+
 h4{
 	font-size: 12pt;
 	font-weight: 200;
@@ -91,7 +100,6 @@ h4{
 h6{
 	font-size: 9pt;
 	font-weight: 200;
-	text-align: center;
 	letter-spacing: 0.5px;
 	margin: 0 auto;
 }
@@ -100,6 +108,7 @@ p{
 	font-size: 10pt;
 	font-weight: 400;
 	margin: 0 auto;
+	letter-spacing: 0.5px;
 }
 
 .contactinfo{
@@ -127,52 +136,89 @@ p{
 }
 
 .contentpart{
-	position: absolute;
+	position: relative;
 	left:0;
 	right: 0;
 	max-width: 854px;
 	margin: 0 auto;
+	
+}
+
+.contentpart2{
+	position: relative;
+	left:0;
+	right: 0;
+	max-width: 854px;
+	margin: 0 auto;
+
 }
 
 .content{
 	position: relative;
 	display: inline-block;
 	width: 425px;
-	height: 210px;
-	margin: 0 auto;
+	height: 145px;
+	margin: 20px auto 0 auto;
+}
+
+.contentpart2 .content{
+	height: 200px;
 }
 
 .content .main{
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: blue;
-	width: 290px;
-	height: 210px;
+	/*background: blue;*/
+	width: 300px;
+	padding-left: 10px;
+	/*height: 210px;*/
+}
+
+.tools{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
 
 .content .year{
 	position: absolute;
 	right: 0;
 	top: 0;
-	background: yellow;
-	width: 135px;
-	height: 210px;
+	/*background: yellow;*/
+	width: 125px;
+	/*height: 210px;*/
+	text-align: center;
 }
 
 .description{
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
+}
+
+.indent{
+	text-indent: -10px;
+}
+
+.language{
+	text-align: center;
 }
 
 @media screen and (max-width: 870px) {
 
 .contentpart{
-	position: absolute;
 	left:0;
 	right: 0;
 	max-width: 450px;
 	margin: 0 auto;
 }
+
+.contentpart2{
+	left:0;
+	right: 0;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
 
 #outbox{
 	padding-left: 20px;
@@ -182,7 +228,42 @@ p{
 }
 
 
+@media screen and (max-width: 415px) {
 
+.content{
+	width: 100%;
+	margin-left: -10px;
+	margin: 20px auto 0 auto;
+}
+
+.content .year{
+	width: 40px;
+	text-align: center;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 350px) {
+
+.content .main{
+	width: 280px;
+	padding-left: 0;
+}
+
+.content .year{
+	width: 40px;
+	right: -10px;
+}
+
+#outbox{
+	padding-left: 12px;
+	padding-right: 14px;
+}
+
+}
 
 
 
