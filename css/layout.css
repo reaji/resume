@@ -165,12 +165,18 @@ p{
 }
 
 @media screen and (max-width: 870px) {
+
 .contentpart{
 	position: absolute;
 	left:0;
 	right: 0;
 	max-width: 450px;
 	margin: 0 auto;
+}
+
+#outbox{
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 }
