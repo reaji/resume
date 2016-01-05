@@ -150,18 +150,18 @@ p{
 	position: relative;
 	display: inline-block;
 	width: 425px;
-	height: 145px;
+	/*height: 145px;*/
 	margin: 20px auto 0 auto;
 	overflow-x:hidden; 
 }
 
-.contentpart2 .content{
+/*.contentpart2 .content{
 	height: 200px;
 }
 
 .content.cv{
 	height:160px;
-}
+}*/
 
 .content .main{
 	position: absolute;
