@@ -159,6 +159,10 @@ p{
 	height: 200px;
 }
 
+.content.cv{
+	height:150px;
+}
+
 .content .main{
 	position: absolute;
 	left: 0;
@@ -277,7 +281,7 @@ p{
 }
 
 .content.iphone5bug{
-	height: 250px;
+	height: 200px;
 }
 
 }
