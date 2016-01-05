@@ -39,8 +39,7 @@
 
 html, body{
 	margin: 0;
-	overflow-x: hidden;
-    overflow-y: scroll;
+
 }
 
 #outbox{
@@ -157,7 +156,12 @@ p{
 }
 
 .contentpart2 .content{
+	position: relative;
+	display: inline-block;
+	width: 425px;
 	height: 200px;
+	margin: 20px auto 0 auto;
+	overflow-x:hidden; 
 }
 
 .content .main{
@@ -258,7 +262,7 @@ p{
 @media screen and (max-width: 350px) {
 
 .content .main{
-	width: 280px;
+	max-width: 280px;
 	padding-left: 10px;
 }
 
