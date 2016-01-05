@@ -156,12 +156,7 @@ p{
 }
 
 .contentpart2 .content{
-	position: relative;
-	display: inline-block;
-	width: 425px;
 	height: 200px;
-	margin: 20px auto 0 auto;
-	overflow-x:hidden; 
 }
 
 .content .main{
