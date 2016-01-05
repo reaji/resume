@@ -196,6 +196,7 @@ p{
 
 .language{
 	text-align: center;
+	text-indent: -10px;
 }
 
 @media screen and (max-width: 870px) {
@@ -269,6 +270,11 @@ p{
 #outbox{
 	padding-left: 5px;
 	padding-right: 0;
+}
+
+.language{
+	width: 210px;
+	text-indent: -10px;
 }
 
 }
