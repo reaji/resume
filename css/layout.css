@@ -123,6 +123,8 @@ p{
 .profile{
 	margin-top:10px;
 	max-width: 600px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .contentpart{
