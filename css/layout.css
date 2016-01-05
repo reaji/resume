@@ -233,7 +233,7 @@ p{
 }
 
 .content .year{
-	width: 40px;
+	width: 42px;
 	text-align: center;
 
 }
@@ -274,6 +274,10 @@ p{
 .language{
 	width: 210px;
 	text-indent: -10px;
+}
+
+.content .iphone5bug{
+	height: 210px;
 }
 
 }
