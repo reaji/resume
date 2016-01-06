@@ -45,9 +45,13 @@ html, body{
 #outbox{
 	position: relative;
 	max-width: 940px;
+	height: 1050px;
 	margin: 0 auto;
+	/*border: 1px solid black;*/
 	padding-top: 25px;
 	overflow-x:hidden; 
+/*	padding-left: 65px;
+	padding-right: 65px;*/
 }
 
 
@@ -123,7 +127,7 @@ p{
 }
 
 .contentpart{
-	/*position: relative;*/
+	position: relative;
 	left:0;
 	right: 0;
 	max-width: 854px;
@@ -132,14 +136,41 @@ p{
 	
 }
 
-.content{
-	display: inline-block;
+.contentpart2{
+	position: relative;
 	left:0;
 	right: 0;
-	width: 412px;
-	margin: 35px auto 0 auto;
-	vertical-align: top;
+	max-width: 854px;
+	margin: 0 auto;
+	overflow-x:hidden; 
+
+}
+
+.content{
+	position: relative;
+	display: inline-block;
+	width: 425px;
+	height: 145px;
+	margin: 20px auto 0 auto;
+	overflow-x:hidden; 
+}
+
+.contentpart2 .content{
+	height: 200px;
+}
+
+.content.cv{
+	height:160px;
+}
+
+.content .main{
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*background: blue;*/
+	width: 300px;
 	padding-left: 10px;
+	/*height: 210px;*/
 }
 
 .tools{
@@ -149,8 +180,12 @@ p{
 }
 
 .content .year{
-	width: 100px;
-	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+	/*background: yellow;*/
+	width: 125px;
+	/*height: 210px;*/
 	text-align: center;
 }
 
@@ -162,22 +197,9 @@ p{
 	text-indent: -10px;
 }
 
-.plength{
-	padding-right: 100px;
-	margin: 0;
-}
-
-.plength2{
-	padding-right: 100px;
-	margin: 0;
-	width: 412px;
-}
-
-
 .language{
 	text-align: center;
 	text-indent: -10px;
-	margin-bottom: 40px;
 }
 
 @media screen and (max-width: 870px) {
@@ -189,45 +211,77 @@ p{
 	margin: 0 auto;
 }
 
-
-#outbox{
-	padding-left: 10px;
+.contentpart2{
+	left:0;
+	right: 0;
+	max-width: 450px;
+	margin: 0 auto;
 }
 
 
+#outbox{
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 1655px;
+}
 
 }
 
 
 @media screen and (max-width: 450px) {
 
-
-#outbox{
-	margin: 0;
-	padding-right: 10px;
-}
-
 .content{
 	width: 100%;
+	margin-left: -10px;
+	margin: 20px auto 0 auto;
 }
 
 .content .year{
-	width: 41px;
-	padding-right: 10px;
+	width: 42px;
+	text-align: center;
+
 }
+
+.contentpart{
+	width: 100%;
+}
+
+.contentpart2{
+	width: 100%;
+}
+
+#outbox{
+
+	height: 1735px;
+}
+
 
 }
 
 @media screen and (max-width: 350px) {
 
+.content .main{
+	max-width: 280px;
+	padding-left: 10px;
+}
+
+.content .year{
+	width: 40px;
+	right: 3px;
+}
+
 #outbox{
 	padding-left: 5px;
-	padding-right: 5px;
+	padding-right: 0;
 }
 
 .language{
 	width: 210px;
 	text-indent: -10px;
+}
+
+.content.iphone5bug{
+	height: 215px;
 }
 
 }
