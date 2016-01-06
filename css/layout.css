@@ -167,13 +167,6 @@ p{
 	margin: 0;
 }
 
-.plength2{
-	padding-right: 100px;
-	margin: 0;
-	width: 412px;
-}
-
-
 .language{
 	text-align: center;
 	text-indent: -10px;
@@ -193,9 +186,6 @@ p{
 #outbox{
 	padding-left: 10px;
 }
-
-
-
 }
 
 
@@ -215,6 +205,12 @@ p{
 	width: 41px;
 	padding-right: 10px;
 }
+
+.plength{
+	padding-right: 42px;
+	margin: 0;
+}
+
 
 }
 
