@@ -211,6 +211,11 @@ p{
 	margin: 0;
 }
 
+.profile{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 
 }
 
@@ -226,6 +231,10 @@ p{
 	text-indent: -10px;
 }
 
+.profile{
+	padding-left: 10px;
+	padding-right: 10px;
+}
 }
 
 
