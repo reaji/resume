@@ -174,6 +174,16 @@ p{
 	margin-bottom: 40px;
 }
 
+a{
+	text-decoration: none;
+}
+
+button{
+	cursor: pointer;
+	margin: 10px auto 0 auto;
+	display: block;
+}
+
 @media screen and (max-width: 870px) {
 
 .contentpart{
