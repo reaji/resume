@@ -227,6 +227,10 @@ button{
 	padding-right: 20px;
 }
 
+button{
+	display: none;
+}
+
 
 }
 
