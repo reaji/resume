@@ -327,7 +327,7 @@ button:active{
 
 #nav{
 	position: relative;
-	top:10px;
+	top:15px;
   margin: 0 auto;
   width: 500px;
 /*  background:yellow;*/
@@ -440,13 +440,13 @@ a{
 	padding-left: 10px;
 }
 
-#nav{
+/*#nav{
   display: none;
-}
+}*/
 
-.name{
+/*.name{
   display: block;
-}
+}*/
 }
 
 
@@ -505,6 +505,49 @@ a{
 }
 }
 
+@media screen and (max-width: 1025px) {
+  .mysharebuttom1{
+  color: #3b5998;
+  
+}
+
+
+.mysharebuttom2{
+  color: #55acee;
+}
+
+
+.mysharebuttom3{
+  color: #3f729b;
+}
+}
+
+@media screen and (max-width: 767px) {
+  #mybutt{
+  position: relative;
+}
+
+@media screen and (max-width: 520px) {
+#nav{
+  width: 225px;
+/*  background:yellow;*/
+  height: 65px;
+}
+
+.manu.about{
+  position: absolute;
+  top:40px;
+  left: 5px;
+
+}
+
+.manu.works{
+  position: absolute;
+  top:40px;
+  right: 8px;
+
+}
+}
 
 
 
