@@ -515,9 +515,8 @@ a{
 
 @media screen and (max-width: 520px) {
 #nav{
-  width: 225px;
-/*  background:yellow;*/
-  height: 65px;
+  width: 230px;
+  height: 86px;
 }
 
 .manu.about{
