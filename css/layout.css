@@ -50,7 +50,7 @@ html, body{
 #outbox{
 	position: relative;
 	max-width: 940px;
-	margin: 0 auto;
+	margin: 50px auto 0;
 	padding-top: 15px;
 	overflow-x:hidden; 
 }
@@ -62,6 +62,7 @@ h1{
 	text-align: center;
 	letter-spacing: 6px;
 	margin: 0 auto;
+	color: #333333;
 }
 
 h2{
@@ -70,6 +71,7 @@ h2{
 	text-align: center;
 	letter-spacing: 3px;
 	margin: 0 auto;
+	color: #333333;
 }
 
 h3{
@@ -77,6 +79,7 @@ h3{
 	font-weight: 500;
 	margin: 0 auto;
 	letter-spacing: 0.6px;
+	color: #333333;
 }
 
 h4{
@@ -85,6 +88,7 @@ h4{
 	text-align: center;
 	letter-spacing: 0.5px;
 	margin: 0 auto;
+	color: #666666;
 }
 
 h6{
@@ -92,14 +96,19 @@ h6{
 	font-weight: 200;
 	letter-spacing: 0.5px;
 	margin: 0 auto;
+	color: #666666;
 }
 
 p{
 	font-size: 10pt;
 	font-weight: 400;
-	margin: 0 auto;
 	letter-spacing: 0.5px;
-  widows: 7;
+  	widows: 7;
+  	color: #333333;
+}
+
+br{
+	margin: 0 0 5px 0;
 }
 
 .contactinfo{
@@ -108,9 +117,14 @@ p{
 	text-align: center;
 }
 
+.year h6{
+		font-weight: 200;
+}
+
 .subtitle{
 	margin-top:0px;
 	font-weight: 500;
+	color: #999999;
 }
 
 .section{
@@ -170,7 +184,7 @@ p{
 
 .plength{
 	padding-right: 100px;
-	margin: 0;
+	margin: 0 0 5px 0;
 }
 
 .language{
@@ -328,6 +342,12 @@ button:active{
 	display: none;
 }
 
+@media screen and (max-width: 520px) {
+#outbox{
+	margin: 65px auto 0;
+}
+}
+
 
 @media screen and (max-width: 870px) {
 
@@ -350,7 +370,6 @@ button:active{
 
 
 #outbox{
-	margin: 0;
 	padding-right: 10px;
 }
 
@@ -365,7 +384,6 @@ button:active{
 
 .plength{
 	padding-right: 42px;
-	margin: 0;
 }
 
 .profile{
