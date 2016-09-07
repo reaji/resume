@@ -11,7 +11,6 @@
   background: white;
   -webkit-transition: all .5s cubic-bezier(.25,.46,.45,.94);
     transition: all .5s cubic-bezier(.25,.46,.45,.94);
-  
 }
 
 #nav{
@@ -142,6 +141,28 @@ height: 2px;
   -webkit-transition: all .35s cubic-bezier(.25,.46,.45,.94);
     transition: all .35s cubic-bezier(.25,.46,.45,.94);
 }
+
+
+.responsiveback{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #333333;
+  opacity: 0.8;
+  z-index: +3;
+  }
+
+.responsivenote{
+  position: fixed;
+  z-index: +4;
+  top:50%;
+  opacity: 1;
+  left: 50%;
+  color: white;
+  background: none;
+  }
 
 
 @media screen and (max-width: 520px) {
