@@ -322,104 +322,7 @@ button:active{
 
 }
 
-/*navvvvvvvvvvvvvvvvvvvvvvvvv*/
 
-#nav{
-	position: relative;
-	top:10px;
-  margin: 0 auto;
-  width: 500px;
-/*  background:yellow;*/
-  height: 43px;
-}
-
-/*@keyframes accessin {
-    from {transform: scale(1.5,1.5);opacity: 0;}
-    to {transform: scale(1,1);opacity: 1;}
-}
-
-@keyframes accessin2 {
-    0%{left: 65px;opacity: 0;}
-    20%{left: 65px;opacity: 0;}
-    100% {left:10px;opacity: 1;}
-}
-
-@keyframes accessin3 {
-    0%{right: 65px;opacity: 0;}
-    20%{right: 65px;opacity: 0;}
-    100% {right:10px;opacity: 1;}
-}*/
-
-.title{
-  animation: accessin 1s ease-in-out;
-  font-size: 26pt;
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: 6px;
-  margin: 0 auto;
-  max-width: 230px;
-  cursor: pointer;
-  font-family: 'San Francisco', sans-serif;
-  text-indent: 6px;
-}
-
-a{
-  text-decoration: none;
-  color: black;
-}
-
-
-
-.manu{
-    display: block;
-    font-size: 1.17em;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-size: 12pt;
-    font-weight: 500;
-    margin: 0 auto;
-    letter-spacing: 0.6px;
-}
-
-.manu.about{
-  position: absolute;
-  top:12px;
-  left: 8px;
-  height: 21px;
-  animation: accessin2 2s;
-  cursor: pointer;
-  text-align: right;
-
-}
-
-.manu.about:hover{
-  border-bottom: 1px solid black;
-}
-
-/*.manu.about:active{
-  top:8px;
-}*/
-
-.manu.works:hover{
-  border-bottom: 1px solid black;
-}
-
-/*.manu.works:active{
-  top:8px;
-}*/
-
-
-.manu.works{
-  position: absolute;
-  top:12px;
-  right: 10px;
-  height: 21px;
-  animation: accessin3 2s;
-  cursor: pointer;
-
-}
 
 .name{
 	display: none;
@@ -500,26 +403,7 @@ a{
   position: relative;
 }
 
-@media screen and (max-width: 520px) {
-#nav{
-  width: 230px;
-  height: 86px;
-}
 
-.manu.about{
-  position: absolute;
-  top:40px;
-  left: 5px;
-
-}
-
-.manu.works{
-  position: absolute;
-  top:40px;
-  right: 8px;
-
-}
-}
 
 
 /*@media screen and (min-width: 1300px) {
