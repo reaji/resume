@@ -17,6 +17,7 @@ var tap = ("ontouchstart" in document.documentElement);
 if(tap){
 	$('.responsiveback, .responsivenote').css("display","none");
 }
+
 $(window).mouseenter(function(){
 	$('.responsiveback, .responsivenote').fadeOut("slow");
 });

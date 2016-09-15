@@ -169,6 +169,7 @@ br{
 }
 
 .content .year{
+	opacity: 0;
 	width: 100px;
 	float: right;
 	text-align: center;
@@ -358,6 +359,10 @@ button:active{
 	margin: 0 auto;
 }
 
+.content .year{
+	opacity:1;
+}
+
 
 #outbox{
 	padding-left: 10px;
@@ -378,6 +383,7 @@ button:active{
 }
 
 .content .year{
+	opacity:1;
 	width: 41px;
 	padding-right: 10px;
 }
