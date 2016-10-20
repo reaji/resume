@@ -175,6 +175,8 @@ br{
 	text-align: center;
 }
 
+
+
 .description{
 	/*margin-bottom: 20px;*/
 }
@@ -284,6 +286,9 @@ display: none;
 	opacity:1;
 }
 
+.content .year1{
+	display: none;
+}
 
 #outbox{
 	padding-left: 10px;
